@@ -3,18 +3,27 @@
         <head>
             <meta charset="UTF-8">
             <title>Odin Recipes Homepage</title>
+            <link rel="stylesheet" href="styles.css">
         </head>
 
         <body>
-            <h1>Odin Recipes</h1>
-                <p>A feast for the Gods</p>
-                <img src="https://odinstreasures.com/cdn/shop/articles/OT_blogs_vikingmeals_e58c0786-49ea-4642-babb-2fcd4b413bd1.jpg?v=1756253743&width=1400" alt="hearty nordic meal" height="300" width="500">
-                <h2>This week's editor's pick:</h2>
-                <p><ul>
-                    <li><a href="./recipes/chicken_stroganoff.html">Chicken Stroganoff</a></li>
-                    <li><a href="./recipes/mince_chebureki.html">Mince Chebureki</a></li>
-                    <li><a href="./recipes/chicken_tikka_masala.html">Chicken Tikka Masala</a></li>
-                </ul></p>
-                <p><Strong><a href="./about/about.html" target="_blank" rel="noreferral">About us</a></Strong></p>
+            <div class="pageformat">
+                <div class="header">
+                    <h1 class="title">Odin Recipes</h1>
+                    <p class="subtitle">A feast for the Gods</p>
+                </div>
+                <div class="pagebody">
+                    <img class="mainpagemeal" src="https://odinstreasures.com/cdn/shop/articles/OT_blogs_vikingmeals_e58c0786-49ea-4642-babb-2fcd4b413bd1.jpg?v=1756253743&width=1400" alt="hearty nordic meal" height="600" width="1000">
+                    <div class="weektopbody">
+                        <h2 class="weektop">This week's editor's pick:</h2>
+                        <ul>
+                            <li class="toplist"><a href="./recipes/chicken_stroganoff.html">Chicken Stroganoff</a></li>
+                            <li class="toplist"><a href="./recipes/mince_chebureki.html">Mince Chebureki</a></li>
+                            <li class="toplist"><a href="./recipes/chicken_tikka_masala.html">Chicken Tikka Masala</a></li>
+                        </ul>
+                    </div>
+                    <button><Strong><a href="./about/about.html" target="_blank" rel="noreferral">About us</a></Strong></button>
+                </div>
+            </div> 
         </body>
     </html>
